@@ -21,11 +21,13 @@ model = LinearRegression()
 model.fit(X_poly, performance)
 
 # Predict scores
-predicted_performance = model.predict(X_poly)
+input_features = np.array([[8, 6]])  # 8 study hours and 6 sleep hours
+input_features_poly = poly.transform(input_features)
+predicted_performance = model.predict(input_features_poly)  # Predict for 8 study hours and 6 sleep hours
 
 # Plot results
-plt.scatter(study_hours, performance, color='blue', label="Actual Performance")
-plt.scatter(study_hours, predicted_performance, color='red', label="Predicted Performance")
+plt.scatter(study_hours, performance, color='blue', marker='x', label="Actual Performance")
+plt.scatter([8], predicted_performance, color='red', alpha=0.6, label="Predicted Performance (8,6)")
 plt.xlabel("Study Hours")
 plt.ylabel("Performance Score")
 plt.legend()
