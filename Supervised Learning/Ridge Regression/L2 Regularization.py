@@ -29,6 +29,7 @@ mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse:.2f}")
 
 # Plot
+plt.style.use('dark_background')
 plt.scatter(X, y, color='blue', label='Data')
 plt.plot(X_test, y_pred, color='red', label='Ridge Prediction')
 plt.xlabel("X")
