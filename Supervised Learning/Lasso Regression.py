@@ -30,7 +30,7 @@ plt.xlabel("Feature 1")
 plt.ylabel("Target")
 plt.legend()
 plt.grid(True,alpha=0.2,linewidth=0.5)
-plt.show()
+plt.show() 
 
 print(f"Best alpha selected by LassoCV: {model.alpha_:.4f}")
 print(f"Prediction for sample {sample.tolist()[0]}: {pred[0]:.2f}")
