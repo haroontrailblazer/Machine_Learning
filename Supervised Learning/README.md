@@ -89,7 +89,7 @@ In the vast landscape of machine learning, no single regression model is "better
 - Distance-based methods like KNN work well for local patterns and don’t require assumptions about the data.
 - Support Vector Regression excels when margins and kernels matter.
 - Gaussian Processes and probabilistic frameworks give smooth predictions with confidence intervals — invaluable in scientific modeling.
-Each model is a tool in your kit, and the real craft lies in choosing (or combining) the right one based on:
+- Each model is a tool in your kit, and the real craft lies in choosing (or combining) the right one based on:
 - The size and quality of your dataset,
 - The distribution and dimensionality of your features,
 - The level of interpretability, speed, or precision required.
