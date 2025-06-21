@@ -80,7 +80,7 @@ This repository contains a comprehensive walkthrough of various regression model
 ## 🧾 Final Thoughts
 
 Final Conclusion: Every Model Has Its Moment
-In the vast landscape of machine learning, no single regression model is "better" than all others — each has its own reliability, strengths, and design philosophy. Rather than thinking in terms of "best" or "worst," we understand that each model shines in different situations, data types, and problem scales:
+In the vast landscape of machine learning, no single regression model is "better" than all others each has its own reliability, strengths, and design philosophy. Rather than thinking in terms of "best" or "worst," we understand that each model shines in different situations, data types, and problem scales:
 - Linear models are fast and interpretable — ideal for clean, linearly separable data.
 - Regularized regressions like Ridge, Lasso, and ElasticNet control complexity and prevent overfitting.
 - Tree-based models (e.g. Decision Trees, Random Forests, Boosting) adapt well to nonlinear relationships and mixed data types.
